@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+div{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #effefe;
+}
+
+/* CSS */
+button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 10px;
+}
+
+button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.parent{
+    height: 27rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+    margin-left: 1rem;
+    width: 3.8rem;
+    height: 20px;
+    border: 2.5px solid rgb(0, 0, 0);
+    border-radius: 15%;
+}
+
+.top{
+    text-align: center;
+}
+.elem{
+    height: 10%;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    padding-top: auto;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.stack{
+    position: absolute;
+    width: 7rem;
+    height: 27rem;
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
